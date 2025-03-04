@@ -774,7 +774,7 @@
 		"@types/fs-extra": "11.0.4",
 		"@types/jsdom": "21.1.7",
 		"@types/mime": "4.0.0",
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.9",
 		"@types/p-retry": "3.0.1",
 		"@types/winreg": "1.2.36"
 	},
