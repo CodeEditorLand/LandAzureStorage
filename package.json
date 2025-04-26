@@ -812,7 +812,7 @@
         "@types/jsdom": "21.1.7",
         "@types/mime": "4.0.0",
         "@types/mocha": "10.0.10",
-        "@types/node": "22.14.1",
+        "@types/node": "22.15.2",
         "@types/p-retry": "3.0.1",
         "@types/vscode": "1.99.1",
         "@types/winreg": "1.2.36",
@@ -829,12 +829,12 @@
         "ts-node": "10.9.2",
         "typescript": "5.8.3",
         "vsce": "2.15.0",
-        "webpack": "5.99.6",
+        "webpack": "5.99.7",
         "webpack-cli": "6.0.1"
     },
     "dependencies": {
         "@azure-tools/azcopy-node": "3.4.2",
-        "@azure/arm-storage": "18.4.0",
+        "@azure/arm-storage": "18.5.0",
         "@azure/arm-storage-profile-2020-09-01-hybrid": "2.1.0",
         "@azure/core-rest-pipeline": "1.19.1",
         "@azure/data-tables": "13.3.0",
