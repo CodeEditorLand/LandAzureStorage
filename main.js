@@ -10,20 +10,20 @@
 // This is in a separate file so we can properly measure extension.bundle.js load time.
 
 let perfStats = {
-	loadStartTime: Date.now(),
-	loadEndTime: undefined,
+    loadStartTime: Date.now(),
+    loadEndTime: undefined
 };
 
 Object.defineProperty(exports, "__esModule", { value: true });
 
-const extension = require("./out/src/extension");
+const extension = require('./out/src/extension');
 
 async function activate(ctx) {
-	return await extension.activate(ctx, perfStats, true);
+    return await extension.activate(ctx, perfStats, true);
 }
 
 async function deactivate(ctx) {
-	return await extension.deactivate(ctx, perfStats);
+    return await extension.deactivate(ctx, perfStats);
 }
 
 // Export as entrypoints for vscode

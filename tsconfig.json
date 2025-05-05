@@ -1,40 +1,33 @@
 {
-	"compilerOptions": {
-		"baseUrl": "./",
-		"lib": [
-			"es2021",
-			"dom",
-			"es6",
-			"esnext.asynciterable"
-		],
-		"module": "commonjs",
-		"noImplicitReturns": true,
-		"noImplicitThis": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"outDir": "Target",
-		"paths": {
-			"*": [
-				"node_modules/@types/*",
-				"*"
-			]
-		},
-		"rootDir": "src",
-		"skipLibCheck": false,
-		"sourceMap": true,
-		"strictNullChecks": true,
-		"target": "es6"
-	},
-	"exclude": [
-		"node_modules",
-		".vscode-test",
-		"gulpfile.ts"
-	],
-	"extends": "@playform/build/tsconfig",
-	"include": [
-		"src",
-		"src",
-		"src",
-		"src"
-	]
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "out",
+        "lib": [
+            "es2021",
+            "dom",
+            "es6",
+            "esnext.asynciterable"
+        ],
+        "sourceMap": true,
+        "rootDir": ".",
+        "noUnusedLocals": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "noUnusedParameters": true,
+        "baseUrl": "./",
+        "paths": {
+            "*": [
+                "node_modules/@types/*",
+                "*"
+            ]
+        },
+        "skipLibCheck": false
+    },
+    "exclude": [
+        "node_modules",
+        ".vscode-test",
+        "gulpfile.ts"
+    ]
 }
